@@ -1,0 +1,42 @@
+.gallerylook{
+    border: none;
+    margin: 0;
+    color: #fff;
+    font-weight:bold ;
+    padding: 16px,20px;
+    position: absolute;
+    top: 35px;
+   right:200px ;
+ background:#7bc74d ;
+   
+  }
+    .BtnStyle{
+    border: none;
+    margin: 0;
+    color: #fff;
+    font-weight:bold ;
+    padding: 16px 20px;
+    background: #7D4C92;
+    width: 417px,
+  }
+
+ .Divstytle {
+    align-items: center;
+    margin: 0px auto auto auto;
+    text-align:center;
+    
+  } 
+
+ .formStyle {
+    width: 400px;
+    border: 1px solid lightgray;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    padding: 30px 40px 30px 40px;
+  }
+
+ .inputFields  {
+    width: inherit;
+    font-family:arial ;
+    padding: 6px,
+ }
