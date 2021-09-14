@@ -2,9 +2,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import'./PostForm.css';
-
 class PostForm extends Component {
-  handleSubmit = (e) => {
+    handleSubmit = (e) => {
     e.preventDefault();
     const title = this.getTitle.value;
     const message = this.getMessage.value;
@@ -16,6 +15,7 @@ class PostForm extends Component {
     this.getMessage.value = '';
     this.getImage.value = '';
   }
+
 render() {
   return (
     <div className="Divstytle">
@@ -24,7 +24,6 @@ render() {
     </h1>
 
 <p>create new post</p>
-
     <hr></hr>
       <h3>Create a new Post</h3>
       <form onSubmit={this.handleSubmit} className='formStyle'>
@@ -39,7 +38,6 @@ render() {
          <br></br>
          <textarea  className='inputFields'
            required rows="5" cols="28"
-  
          placeholder="Enter Comment"
            ref={(input)=>this.getMessage = input}/>
          <br /><br />
